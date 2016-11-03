@@ -8,9 +8,10 @@ VMS : sh queue /out=CBTQueue.txt
 FTP : overhalen naar c:\temp
 ------ Voor Assign / Deassign ------ (Assign.txt / DeAssign.txt)
 Vul Node met de Node die buiten werking is en waarvoor de queues moeten worden omgeleid.
+Dit moet voor elke server worden uitgevoerd
 
-Voor het resetten van Queue's "
-QRes.txt
+Voor het resetten van Queue's 
+Gebruik : QRes.txt
 """
 
 printer=""
