@@ -1,10 +1,10 @@
 __author__ = 'HAANG'
 """
-Python - VMS - Queue beheer op basis van sh /queue /out=CBTQueue
+Python - VMS - Queue beheer op basis van sh /queue /out=sswrk:CBTQueue.txt
 01-07-2014 / 30-10-2016
 
 Gebruiksaanwijzing :
-VMS : sh queue /out=CBTQueue.txt
+VMS : sh queue /out=sswrk:CBTQueue.txt
 FTP : overhalen naar c:\temp
 ------ Voor Assign / Deassign ------ (Assign.txt / DeAssign.txt)
 Vul Node met de Node die buiten werking is en waarvoor de queues moeten worden omgeleid.
